@@ -25,3 +25,8 @@ h1{
 .other{
     background-color: blanchedalmond;
 }
+@media (max-width:700) {
+    .calender{
+        height: 100px;
+    }
+}

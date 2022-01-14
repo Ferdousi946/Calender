@@ -1,0 +1,27 @@
+h1{
+    text-align:center;
+    color:blue;
+}
+.calender{
+    display: grid;
+    height: 450px;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 15px;
+   
+}
+.date, .name{
+    background-color: burlywood;
+    border-radius: 20px;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    background-color:khaki;
+     font-size: 2em;
+    
+}
+.other{
+    background-color: blanchedalmond;
+}
